@@ -10,8 +10,4 @@ setup(
     install_requires=[
         "requests==2.7.0"
         ],
-    dependency_links = [
-     "git+git://github.com/mikkymak/CloudLib.git#egg=mylib",
-    ],
-    include_package_data=True,
 )
